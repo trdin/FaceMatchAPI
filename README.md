@@ -2,6 +2,8 @@
 
 This is a simple API that uses the face_recognition Python library to compare faces. It provides a single endpoint that accepts two images and returns whether they are the same person or not.
 
+Created with [face_recognition library](https://github.com/ageitgey/face_recognition)
+
 ## Usage
 
 To use this API, you can send a POST request to the /compare endpoint with two images in Base64 format. The API will then return a JSON object with a same field set to true or false depending on whether the faces in the images match or not.
